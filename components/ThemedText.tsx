@@ -18,7 +18,7 @@ export function ThemedText({
   const color = useThemeColor({ light: lightColor, dark: darkColor }, 'text');
 
   return (
-    <Text
+    <Text className='text-red-500'
       style={[
         { color },
         type === 'default' ? styles.default : undefined,

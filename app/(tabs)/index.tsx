@@ -49,7 +49,21 @@ export default function HomeScreen() {
       <ThemedView style={styles.stepContainer}>
         <Text className="text-red-500">TEST NATIVE WIND PLZ OMG</Text>
         <View className="p-4">
-        <Text className="text-2xl font-bold mb-4">Choose a Color Palette</Text>
+        <ThemedText className="text-2xl font-bold mb-4">Choose a Color Palette</ThemedText>
+        </View>
+        <View className="flex-row justify-between max-w-64 py-2"> 
+        <View className={`w-16 h-16 mx-3 rounded-md bg-theme-primary`} />
+        <View className={`w-16 h-16 mx-3 rounded-md bg-theme-secondary`} />
+        <View className={`w-16 h-16 mx-3 rounded-md bg-theme-accent`} />
+        <View className={`w-16 h-16 mx-3 rounded-md bg-theme-background`} />
+        <View className={`w-16 h-16 mx-3 rounded-md bg-theme-text`}></View>
+        </View>
+        <View className="flex-row justify-between max-w-64"> 
+        <View className={`w-16 h-16 mx-3 rounded-md bg-option4-primary`} />
+        <View className={`w-16 h-16 mx-3 rounded-md bg-option4-secondary`} />
+        <View className={`w-16 h-16 mx-3 rounded-md bg-option4-accent`} />
+        <View className={`w-16 h-16 mx-3 rounded-md bg-option4-background`} />
+        <View className={`w-16 h-16 mx-3 rounded-md bg-option4-text`}></View>
         </View>
 
 
